@@ -1,0 +1,92 @@
+Circular Array Tester Output
+///// TEST 01 /////
+40  null  10  20  30  
+Print forward:  
+10 
+20 
+30 
+40 
+ 
+Print Backward 
+40 
+30 
+20 
+10 
+
+///// TEST 02 /////
+40  null  10  20  30  
+///// TEST 03 /////
+40  50  10  20  30  resizeStartUnchanged    
+null  null  30  40  50  
+///// TEST 04 /////
+40  50  10  20  30  10  20  30  40  50  null  null  null  
+///// TEST 05 /////
+40  50  10  20  30  insertByRightShift:  
+10  20  30  40  80  80  null  null  
+///// TEST 06 /////
+insertByLeftShift   
+30  80  90  80  null  null  10  20  
+Print forward:  
+80 
+90 
+80 
+null 
+null 
+10 
+20 
+30 
+80 
+
+///// TEST 07 /////
+50  null  null  10  20  30  40  
+remove by leftShift   
+null  null  null  10  20  30  50  
+///// TEST 08 /////
+50  null  null  10  20  30  40  
+removeByRightShift:   
+50  null  null  null  10  20  30  
+Print forward:  
+10 
+20 
+30 
+50 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
