@@ -1,0 +1,34 @@
+Linear Array Output
+
+///// TEST 01: Copy Array example /////
+10 20 30 40 50 60 
+///// TEST 02: Print Reverse example /////
+10 20 30 40 50 60 60 50 40 30 20 10 
+///// TEST 03: Reverse Array example /////
+60 50 40 30 20 10 
+///// TEST 04: Shift Left k cell example /////
+40 50 60 0 0 0 
+///// TEST 05: Rotate Left k cell example /////
+10 20 30 40 50 60 40 50 60 10 20 30 
+///// TEST 06: Shift Right k cell example /////
+10 20 30 40 50 60 0 0 0 40 20 30 
+///// TEST 07: Rotate Right k cell example /////
+10 20 30 40 50 60 40 50 60 10 20 30 
+///// TEST 08: Insert example 1 /////
+10 20 30 40 50 60 no space left
+false
+10 20 30 40 50 60 
+///// TEST 09: Insert example 2 /////
+10 20 30 40 50 0 0 number of Insertion After 6
+true
+10 20 70 30 40 50 0 
+///// TEST 10: Insert example 3 /////
+10 20 70 30 40 50 0 number of Insertion After 7
+true
+10 20 70 30 40 50 70 
+///// TEST 11: Remove example 1 /////
+10 20 70 30 40 50 70 false
+10 20 70 30 40 50 70 
+///// TEST 12: Remove example 2 /////
+10 20 70 30 40 50 70 true
+10 20 30 40 50 0 0 
